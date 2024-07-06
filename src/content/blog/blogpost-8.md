@@ -2,7 +2,7 @@
 title: For the love of Science
 pubDate: 11/09/2022 14:25
 tags:
-  - Science
+  - Podcast
   - Microscopy
   - Expat
 imgUrl: '../../assets/kasia.jpeg'
