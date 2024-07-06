@@ -126,7 +126,7 @@ Resources\
 \
 Online Learning Platforms:\
 \
-Coursera\
+<a href="https://www.coursera.org/" target="_blank">Coursera</a>\
 Udemy\
 Khan Academy\
 \
