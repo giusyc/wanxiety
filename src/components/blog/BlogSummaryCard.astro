@@ -18,7 +18,8 @@ const { post } = Astro.props;
   description={post.data.description}
 >
   <div class='flex justify-end my-4'>
-    <Button href={`/blog/${post.slug}/`}>Read post &rarr;</Button>
+    <!-- This is where we re-route the podcast episodes. Will need to reroute to spotify podcast -->
+    <Button href={`/blog/${post.slug}/`}>Listen &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
