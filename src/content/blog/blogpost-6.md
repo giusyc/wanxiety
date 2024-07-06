@@ -1,176 +1,130 @@
 ---
-title: Blogpost 6
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
-pubDate: 2023-02-21 00:13
-author: Elian Van Cutsem
+title: Video Game Developer Career
+description: Entry into video game development whether it's art, programming, or sound design. In here you'll find a general overview of each specific field within Game Development as well as helpful resources to get you started. 
+pubDate: 2024-07-06 4:09PM
+author: Timothy Coelho
 tags:
-  - TypeScript
-  - Astro
-  - Web Development
-imgUrl: '../../assets/astro.jpeg'
+  - Tech
+  - Game Development
+  
+imgUrl: '../../assets/game_dev.webp'
 layout: ../../layouts/BlogPost.astro
 ---
 
-## Video Game Developer Career
+#  Video Game Developer Career
 
-Embarking on a career in video game development is an exciting journey that combines creativity, technical skills, and a passion for gaming. Here’s a comprehensive career path to help you navigate the industry:
+Working in the video game industry is perfect for those who want to make their dreams come to life as you partake in
+creating a unique experience to share with the world. There are generally 3 different disciplines that are 
+involved in making a game: programmers, artists, and sound design. Within these there are plenty of different directions 
+to go so as you learn hone in on what you desire. 
 
-**1. Education and Foundation
-High School:
+## Video Game Software Engineer
 
-Focus on STEM: Take courses in mathematics, computer science, and physics.
-Creative Arts: Engage in art and design classes to develop a sense of aesthetics.
-Game Clubs and Competitions: Join or start a gaming club, participate in game jams or coding competitions.
-Post-Secondary Education:
+As a programmer whichever language you learn is dependent on which game engine you choose. A game engine is the framework
+used to create a game where all the components come together. Here is a general overview of each engine:
 
-Degrees: Pursue a degree in Computer Science, Game Design, Graphic Design, or related fields.
-Specialized Courses: Enroll in courses specific to game development, such as game programming, level design, and interactive media.
-Self-Learning:
+- <a href="https://www.unrealengine.com/en-US" target="_blank">Unreal Engine (C++)</a>
+  - The most advanced engine to date with a large amount of tools to help you get started and create graphically intense
+  games
+  - Free assets available in the marketplace
+  - Blueprint system allows for code to be placed visually into flowcharts and reusable components making it easier for
+  non engineers to create custom logic
+  - Free
+  - AAA Focused
+- <a href="https://unity.com" target="_blank">Unity (C#)</a>
+  - Asset Store
+  - Ideal for the Mobile Game Market
+  - Relatively easy to pick up
+  - Free for personal use with revenue < $100k in the last 12 months
+- <a href="https://www.cryengine.com" target="_blank">CRYENGINE (C++)</a>
+  - Performant Game Engine
+  - Robust 
+  - Very strong rendering capabilities
+  - Steep learning curve (Fair amount of C++ knowledge needed)
+  - AAA Focused
+- <a href="https://godotengine.org" target="_blank">Godot (GDScript)</a>
+  - Easy language to pick up
+  - Free and Open Source
+  - Simple framework
+  - Lightweight
+  - Indie focused
 
-Online Courses: Utilize platforms like Coursera, Udemy, or Khan Academy for courses in game development, coding, and design.
-Game Engines: Start learning game engines like Unity, Unreal Engine, or Godot.\
-\
-**2. Skill Development
-Programming:
+Overall the options depend on what direction you want to take your career in which type of company or project you'd want
+to do. As a programmer your responsibility is to dictate the logic of the whole game and utilize what was given by the art
+side and bind everything together.
 
-Languages: Learn programming languages such as C++, C#, Python, and JavaScript.
-Game Development Software: Gain proficiency in game development tools and engines like Unity, Unreal Engine, and Godot.
-Scripting: Understand scripting languages specific to game engines, e.g., Blueprints in Unreal Engine or GDScript in Godot.
-Design and Art:
+## Video Game Artist
 
-Graphic Design Tools: Learn software like Adobe Photoshop, Illustrator, Blender, or Maya.
-UI/UX Design: Develop skills in user interface and user experience design.
-2D/3D Art: Create and animate characters, environments, and assets.
-Sound and Music:
+As a Video Game Artist you have a lot of different areas to express your creativity, from character design, to environments
+and more. Each stage builds up into more from concept to modeling/animating to rendering/lighting/VFX. Here are the key aspects
+of each stage in the pipeline of 3D art.
 
-Audio Tools: Use tools like Audacity, FL Studio, or Ableton Live for sound design.
-Music Composition: Learn to compose and integrate music that enhances the gaming experience.\
-\
-*3. Building a Portfolio
-Personal Projects:
+### Illustrator/Concept Artist
+Hand Drawn assets as a proof of concept. This stage is very important as the 3D modellers need a sufficient amount of 
+information to model the concept. A good illustrator needs the following skills:
+- Anatomy (for characters)
+- Shading
+- Perspective
+- Values (Grayscale rendition to color rendition)
+- <a href="https://www.workovereasy.com/2019/06/13/a-beginners-guide-to-composition/" target="_blank">Composition</a> (Used for balance, proportions, where the eye focuses)
+- Lighting
 
-Develop Games: Start by creating small games or mods. Showcase these on platforms like itch.io or Steam.
-Collaborative Projects: Participate in game jams and collaborate with other developers to create portfolio-worthy projects.
-Internships and Freelancing:
+Illustration software options:
+- <a href="https://www.adobe.com/products/photoshop/" target="_blank">Photoshop</a>
+- <a href="https://krita.org/en/" target="_blank">Krita</a>
+- <a href="https://www.clipstudio.net/en/" target="_blank">Clip Studio Paint</a>
+- <a href="https://procreate.com" target="_blank">Procreate (iPad/Desktop Soon)</a>
 
-Internships: Apply for internships at game development studios to gain real-world experience.
-Freelance Work: Take on freelance projects to build a diverse portfolio and network within the industry.
-Showcasing Work:
+Also consider purchasing a drawing tablet (i.e. Wacom, iPad, etc.) for drawing. 
 
-Online Portfolio: Create an online portfolio to display your work. Include playable demos, concept art, and design documents.
-Networking: Attend industry events, join game development forums, and participate in online communities.\
-\
-**4. Entry-Level Positions
-Job Titles:
+### 3D Modelling
+As a 3D Modeller the goal is to take what is done in the illustration phase and create a 3D asset to be placed in the 
+engine environment. 
 
-Junior Game Developer: Work on game coding, debugging, and feature implementation.
-Game Artist: Create game art assets, animations, and visual effects.
-Level Designer: Design and create game levels, environments, and missions.
-Quality Assurance Tester: Test games for bugs, provide feedback, and ensure quality standards.
-Gaining Experience:
+Software options for this stage:
+- <a href="https://www.autodesk.com/products/maya/" target="_blank">Maya</a>
+- <a href="https://www.blender.org" target="_blank">Blender</a>
+- <a href="https://www.maxon.net/en/zbrush" target="_blank">ZBrush</a>
 
-Work in Small Studios: Start in smaller studios where you may have more opportunities to work on various aspects of game development.
-Contract Work: Consider short-term contracts to gain diverse experience and industry connections.\
-\
-**5. Mid-Level Positions
-Job Titles:
+### VFX / Lighting / Textures
+Once a model is created this stage is to add detail and life to the model or the environment. There are standalone tools
+for this as well as support for these features in engine for popular game engines.
 
-Game Developer: Take on more complex programming tasks and systems development.
-Senior Artist: Lead artistic projects, mentor junior artists, and ensure visual consistency.
-Game Designer: Design game mechanics, balance gameplay, and develop game narratives.
-Project Manager: Oversee project timelines, budgets, and team coordination.
-Expanding Skills:
+Standalone software options:
+- <a href="https://www.sidefx.com/products/houdini/fx-features/" target="_blank">Houdini</a>
+- <a href="https://www.adobe.com/products/substance3d/apps/painter.html" target="_blank">Substance Painter</a>
 
-Advanced Programming: Learn advanced algorithms, AI programming, and optimization techniques.
-Leadership: Develop project management and team leadership skills.
-Networking and Industry Involvement:
+### Animation
+At this stage if the model needs to be animated the model will be "rigged" and set up to be animated. The animaiton process
+can be done in most popular game engines or with standalone software.
 
-Industry Conferences: Attend conferences like GDC, E3, or PAX to network and stay updated on industry trends.
-Professional Associations: Join organizations like the International Game Developers Association (IGDA).\
-\
-**6. Senior-Level Positions
-Job Titles:
+Animation Software:
+- <a href="https://www.autodesk.com/products/maya/" target="_blank">Maya</a>
+- <a href="https://www.blender.org" target="_blank">Blender</a>
+- <a href="https://www.autodesk.com/products/motionbuilder/" target="_blank">MotionBuilder</a>
+- <a href="https://www.autodesk.com/products/3ds-max/" target="_blank">3ds Max</a>
 
-Lead Game Developer: Oversee the technical aspects of game development and lead development teams.
-Art Director: Direct the artistic vision of a project and manage the art team.
-Lead Game Designer: Drive the game’s design, from mechanics to story, and guide the design team.
-Producer: Manage the overall production, budgets, and timelines of game development projects.
-Specialization:
+## Sound Design
+For sound design you can use any audio editing software whether it is to make sound effects, music or voice acting.
 
-Technical Expertise: Focus on areas such as engine development, AI, or network programming.
-Creative Direction: Specialize in areas like narrative design, character design, or level design.\
-\
-**7. Advanced Careers and Entrepreneurship
-Executive Roles:
+Audio Software:
+- <a href="https://www.image-line.com" target="_blank">FL Studio</a>
+- <a href="https://www.ableton.com/en/" target="_blank">Ableton</a>
+- <a href="https://www.audacityteam.org" target="_blank">Audacity</a>
+- <a href="https://www.reaper.fm" target="_blank">Reaper</a>
 
-Creative Director: Shape the creative vision and direction of game development projects.
-CTO or CEO: Lead technical or business operations in game development studios or start your own company.
-Entrepreneurship:
+## Resources
 
-Start a Game Studio: Launch your own game development studio and create original games.
-Independent Game Developer: Develop and publish indie games, often with creative freedom and innovative concepts.
-Continuous Learning:
+Below are some courses to help start on this journey:
 
-Stay Updated: Keep up with the latest trends, technologies, and gaming platforms.
-Advanced Degrees: Consider advanced degrees or certifications in specialized areas of game development.\
-\
-**8. Conclusion\
-A career in video game development offers numerous opportunities for growth, creativity, and innovation. By following this path, you can build a rewarding career that allows you to create engaging and memorable gaming experiences for players around the world.
-
-Key Takeaways:
-
-Continuous Learning: The industry evolves rapidly; stay updated on new technologies and methodologies.
-Networking: Building a strong professional network can open doors to new opportunities and collaborations.
-Passion: A genuine passion for games and development is crucial to thrive and succeed in this industry.
-Resources\
-\
-Online Learning Platforms:\
-\
-<a href="https://www.coursera.org/" target="_blank">Coursera</a>\
-Udemy\
-Khan Academy\
-\
-Game Development Tools:\
-\
-Unity\
-Unreal Engine\
-Godot\
-\
-Professional Organizations:\
-\
-International Game Developers Association (IGDA)\
-Game Developers Conference (GDC)\
-\
-Next Steps\
-Build your first game: Start small and focus on completing a project.\
-Join a community: Engage with fellow developers to share knowledge and collaborate.\
-Keep creating: The more you create, the better you’ll get!\
-Feel free to customize this path to fit your specific interests and goals within the video game industry!
-## Iovis late orbem Perseus sunt
-
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
-
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
-
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+- <a href="https://www.unrealsensei.com" target="_blank">Unreal Sensei</a>
+- <a href="https://www.tomlooman.com" target="_blank">Tom Looman's Blog</a>
+- <a href="https://www.coursera.org/specializations/game-design" target="_blank">Game Design: Art and Concepts Specialization</a>
+- <a href="https://www.coursera.org/specializations/programming-unity-game-development" target="_blank">C# Programming for Unity Game Development Specialization</a>
+- <a href="https://www.cryengine.com/tutorials" target="_blank">CRYENGINE Tutorials</a>
+- <a href="https://www.coursera.org/specializations/art-for-games" target="_blank">Art for Games</a>
+- <a href="https://www.udemy.com/course/blendertutorial/" target="_blank">Complete Blender Creator: Learn 3D Modelling for Beginners</a>
+- <a href="https://www.udemy.com/course/complete-godot-3d" target="_blank">Complete Godot 3D: Develop Your Own 3D Games Using Godot 4</a>
+- <a href="https://www.udemy.com/course/sculpting-in-zbrush" target="_blank">Sculpting in ZBrush</a>
+- <a href="https://www.udemy.com/course/blender-animation-rigging/" target="_blank">Blender Animation & Rigging: Bring Your Creations To Life</a>
+- <a href="https://www.udemy.com/course/fl-studio-music-production-course" target="_blank">FL Studio - Music Production + Mixing Music - Complete Music</a>
