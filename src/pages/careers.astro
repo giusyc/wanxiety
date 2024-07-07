@@ -1,4 +1,5 @@
 ---
+import CareerSummaryCard from "@components/careers/CareerSummaryCard.astro";
 import Layout from "@layouts/Default.astro";
 import { getCollection } from "astro:content";
 
@@ -16,7 +17,9 @@ const careers = await getCollection("careers").then((careers) =>
 		<ul class="grid md:grid-cols-3 2xl:grid-cols-4 gap-8">
 			{
 				careers.map((career) => (
-				{career}
+				<li>
+					<CareerSummaryCard career={career}/>
+				</li>
 			)
 		)
 			}

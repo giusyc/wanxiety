@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import CareerSummaryCard from './CareerSummaryCard.astro';
+
+interface Props {
+  careers : CollectionEntry<'careers'>[];
+}
+
+const { careers } = Astro.props;
+---
+
+<ul class='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+  {
+    careers.map((career) => {
+      return (
+        <li>
+          <CareerSummaryCard career={career} />
+        </li>
+      );
+    })
+  }
+</ul>

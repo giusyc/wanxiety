@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import CareerList from '@components/careers/CareerList.astro';
+
+const careers = await getCollection('careers').then((collection) =>
+  collection.reverse()
+);
+---
+
+<Layout
+  title='Blog'
+  description='Brutal Blog | On this page you can find a collection of blogposts'
+  pageTitle='Brutal Blog'
+>
+  <main class='bg-green p-6'>
+    <CareerList careers={careers} />
+  </main>
+</Layout>

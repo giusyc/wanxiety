@@ -20,6 +20,7 @@ const careersCollection = defineCollection({
       description: z.string(),
       pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
+      link: z.string(),
       draft: z.boolean().optional().default(false),
     }),
 });

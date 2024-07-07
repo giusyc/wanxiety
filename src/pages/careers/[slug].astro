@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const careerEntries = await getCollection('careers');
+  return careerEntries.map((career) => ({
+    params: { slug: career.slug },
+    props: { career },
+  }));
+}
+
+interface Props {
+  career: CollectionEntry<'careers'>;
+}
+
+const { career } = Astro.props;
+const { Content } = await career.render();
+---
+
+<Content />
