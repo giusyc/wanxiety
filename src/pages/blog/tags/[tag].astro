@@ -3,12 +3,15 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import BlogList from '@components/blog/BlogList.astro';
+import CareerPaths from '@components/careerPaths/CareerPaths.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog').then((collection) =>
     collection.reverse()
   );
+
+  const careerPosts = await getCollection('careerPaths');
 
   const tags: string[] = [];
 
@@ -34,9 +37,10 @@ export async function getStaticPaths() {
 interface Props {
   tag: string;
   blogposts: CollectionEntry<'blog'>[];
+  careers: CollectionEntry<'careerPaths'>[];
 }
 
-const { tag, blogposts } = Astro.props;
+const { tag, blogposts, careers } = Astro.props;
 ---
 
 <Layout
@@ -49,5 +53,6 @@ const { tag, blogposts } = Astro.props;
       <Button href='/blog/'>&larr; Back to blog</Button>
     </div>
     <BlogList posts={blogposts} />
+    <CareerPaths careers={careers} />
   </main>
 </Layout>

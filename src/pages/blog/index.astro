@@ -2,10 +2,12 @@
 import { getCollection } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import BlogList from '@components/blog/BlogList.astro';
+import CareerPaths from '@components/careerPaths/CareerPaths.astro';
 
 const posts = await getCollection('blog').then((collection) =>
   collection.reverse()
 );
+const careers = await getCollection('careerPaths');
 ---
 
 <Layout
@@ -15,5 +17,6 @@ const posts = await getCollection('blog').then((collection) =>
 >
   <main class='bg-green p-6'>
     <BlogList posts={posts} />
+    <CareerPaths careers={careers} />
   </main>
 </Layout>

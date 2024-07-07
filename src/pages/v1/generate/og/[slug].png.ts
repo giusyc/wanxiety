@@ -3,6 +3,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import satori from 'satori';
 import { html as toReactElement } from 'satori-html';
+import careerPaths from '../../content/careerPaths/*.md';
 
 const fontFile = await fetch(
   'https://og-playground.vercel.app/inter-latin-ext-700-normal.woff'
@@ -13,12 +14,19 @@ const height = 630;
 const width = 1200;
 
 const posts = await getCollection('blog');
+const career = await getCollection('careerPaths');
 
 export function getStaticPaths() {
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: { title: post.data.title, description: post.data.description },
-  }));
+  return [
+    ...posts.map((post) => ({
+      params: { slug: post.slug },
+      props: { title: post.data.title, description: post.data.description },
+    })),
+    ...career.map((career) => ({
+      params: { slug: career.slug },
+      props: { title: career.data.title, description: career.data.description },
+    })),
+  ];
 }
 
 export const GET: APIRoute = async ({ params, props }) => {
