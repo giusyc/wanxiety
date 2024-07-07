@@ -2,41 +2,44 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
-import BlogList from '@components/blog/BlogList.astro';
+import CareerList from '@components/careers/CareerList.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection('blog').then((collection) =>
+  const allCareers = await getCollection('careers').then((collection) =>
     collection.reverse()
   );
 
   const tags: string[] = [];
 
-  allPosts.forEach((post) => {
-    post.data.tags.forEach((tag) => {
+  allCareers.forEach((career) => {
+    career.data.tags.forEach((tag) => {
       tags.push(tag.toLowerCase());
     });
   });
 
   return Array.from(new Set(tags)).map((tag) => {
+    const filteredCareers = allCareers.filter((career) =>
+      career.data.tags.map((t) => t.toLowerCase()).includes(tag)
+    );
+
     return {
       params: { tag },
       props: {
         tag,
-        blogposts: allPosts.filter((post) =>
-          post.data.tags.map((tag) => tag.toLowerCase()).includes(tag)
-        ),
+        careers: filteredCareers,
       },
     };
   });
 }
 
+
 interface Props {
   tag: string;
-  blogposts: CollectionEntry<'blog'>[];
+  careers: CollectionEntry<'careers'>[];
 }
 
-const { tag, blogposts } = Astro.props;
+const { tag, careers } = Astro.props;
 ---
 
 <Layout
@@ -46,8 +49,8 @@ const { tag, blogposts } = Astro.props;
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
-      <Button href='/blog/'>&larr; Back to Episodes & Meditations </Button>
+      <Button href='/careers/'>&larr; Back to Career Paths</Button>
     </div>
-    <BlogList posts={blogposts} />
+    <CareerList careers={careers} />
   </main>
 </Layout>
