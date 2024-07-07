@@ -1,0 +1,25 @@
+---
+import Layout from "@layouts/Default.astro";
+import { getCollection } from "astro:content";
+
+const careers = await getCollection("careers").then((careers) =>
+	careers.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()),
+);
+---
+
+<Layout
+	title="careers"
+	pageTitle="Elian Codes | Events"
+	description="See upcoming and past events Elian took part in as a speaker (mostly Astro & JavaScript)."
+>
+	<main class="bg-yellow p-6">
+		<ul class="grid md:grid-cols-3 2xl:grid-cols-4 gap-8">
+			{
+				careers.map((career) => (
+				{career}
+			)
+		)
+			}
+		</ul>
+	</main>
+</Layout>
