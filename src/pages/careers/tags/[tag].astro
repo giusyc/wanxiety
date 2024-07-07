@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
-import CareerSummaryCard from '@components/careers/CareerSummaryCard.astro';
+import CareerList from '@components/careers/CareerList.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
 export async function getStaticPaths() {
@@ -49,8 +49,8 @@ const { tag, careers } = Astro.props;
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
-      <Button href='/blog/'>&larr; Back to blog</Button>
+      <Button href='/blog/'>&larr; Back to Career Paths</Button>
     </div>
-    <CareerSummaryCard careers={careers} />
+    <CareerList careers={careers} />
   </main>
 </Layout>

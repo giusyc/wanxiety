@@ -3,9 +3,7 @@ import CareerSummaryCard from "@components/careers/CareerSummaryCard.astro";
 import Layout from "@layouts/Default.astro";
 import { getCollection } from "astro:content";
 
-const careers = await getCollection("careers").then((careers) =>
-	careers.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()),
-);
+const careers = await getCollection("careers");
 ---
 
 <Layout

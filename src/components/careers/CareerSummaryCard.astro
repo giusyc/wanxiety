@@ -4,33 +4,14 @@ import { Pill } from '@eliancodes/brutal-ui';
 import SummaryCard from '../generic/SummaryCard.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
-interface Career {
-  id: string;
-  slug: string;
-  body: string;
-  collection: string;
-  data: {
-    title: string;
-    description: string;
-    tags: string[];
-    pubDate: Date;
-    imgUrl: {
-      src: string;
-      width: number;
-      height: number;
-      format: string;
-    };
-    draft: boolean;
-    link: string;
-  };
-}
 
 interface Props {
-  careers: Career[];
+  careers: CollectionEntry<'careers'>[];
 }
 
 const { careers } = Astro.props;
 ---
+
 
 <SummaryCard
   title={careers[0].data.title}
@@ -40,7 +21,7 @@ const { careers } = Astro.props;
 >
   <div class='flex justify-end my-4'>
     <!-- This is where we re-route the podcast episodes. Will need to reroute to spotify podcast -->
-    <Button href={`/career/${careers[0].slug}/`}>Listen &rarr;</Button>
+    <Button href={`/career/${careers[0].slug}/`}>Learn About this path &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
