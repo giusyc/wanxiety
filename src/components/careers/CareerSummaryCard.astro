@@ -6,7 +6,7 @@ import { Button } from '@eliancodes/brutal-ui';
 
 
 interface Props {
-  careers: CollectionEntry<'careers'>[];
+  careers: CollectionEntry<'careers'>;
 }
 
 const { careers } = Astro.props;
@@ -14,14 +14,14 @@ const { careers } = Astro.props;
 
 
 <SummaryCard
-  title={careers[0].data.title}
-  imgAlt={careers[0].data.title}
-  imgSrc={careers[0].data.imgUrl}
-  description={careers[0].data.description}
+  title={careers.data.title}
+  imgAlt={careers.data.title}
+  imgSrc={careers.data.imgUrl}
+  description={careers.data.description}
 >
   <div class='flex justify-end my-4'>
     <!-- This is where we re-route the podcast episodes. Will need to reroute to spotify podcast -->
-    <Button href={`/career/${careers[0].slug}/`}>Learn About this path &rarr;</Button>
+    <Button href={`/careers/${careers.slug}/`}>Learn About this path &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
@@ -29,7 +29,7 @@ const { careers } = Astro.props;
     <div class='flex justify-between items-center'>
       <ul class='flex gap-4 mt-2'>
         {
-          careers[0].data.tags.map((tag) => {
+          careers.data.tags.map((tag) => {
             return (
               <li>
                 <a class="sanchez" href={`/career/tags/${tag.toLowerCase()}/`}>
@@ -41,7 +41,7 @@ const { careers } = Astro.props;
         }
       </ul>
       {
-        careers[0].data.draft && (
+        careers.data.draft && (
           <span class='bg-green rounded-full border-2 py-1 px-4 text-sm border-black card-shadow'>
             Draft
           </span>
