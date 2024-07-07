@@ -18,7 +18,7 @@ const careers = await getCollection("careers").then((careers) =>
 			{
 				careers.map((career) => (
 				<li>
-					<CareerSummaryCard career={career}/>
+					<CareerSummaryCard careers={careers}/>
 				</li>
 			)
 		)

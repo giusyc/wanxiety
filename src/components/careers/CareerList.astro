@@ -14,7 +14,7 @@ const { careers } = Astro.props;
     careers.map((career) => {
       return (
         <li>
-          <CareerSummaryCard career={career} />
+          <CareerSummaryCard careers={careers} />
         </li>
       );
     })
