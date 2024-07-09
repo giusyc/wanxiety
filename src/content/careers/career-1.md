@@ -7,7 +7,7 @@ tags:
   - Tech
   - Game Development
   
-imgUrl: '../../assets/careers/game_dev.webp'
+imgUrl: '../../assets/careers/vgdev.jpg'
 layout: ../../layouts/BlogPost.astro
 link: https://github.com/
 ---
