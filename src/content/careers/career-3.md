@@ -4,7 +4,8 @@ pubDate: 11/09/2022 14:25
 author: "Miki Anderson"
 tags:
   - Tech
-  - UX/UI
+  - UX
+  - Design
 imgUrl: '../../assets/careers/uxlogo.jpg'
 description: Coming soon!
 layout: '../../layouts/BlogPost.astro'
