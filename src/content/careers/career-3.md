@@ -1,7 +1,7 @@
 ---
 title: UX/UI Designer
 pubDate: 11/09/2022 14:25
-author: "Elian Van Cutsem"
+author: "Miki Anderson"
 tags:
   - Tech
   - UX/UI
