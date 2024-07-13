@@ -1,7 +1,7 @@
 ---
 title: Video Game Developer Career
 description: Entry into video game development whether it's art, programming, or sound design. In here you'll find a general overview of each specific field within Game Development as well as helpful resources to get you started. 
-pubDate: 2024-07-06 16:09
+pubDate: 06/07/2024 16:09
 author: "Tim Coelho"
 tags:
   - Tech
