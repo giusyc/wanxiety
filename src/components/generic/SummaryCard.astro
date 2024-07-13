@@ -7,10 +7,9 @@ interface Props {
   imgSrc: ImageMetadata;
   imgAlt: string;
   description: string;
-  podcastLink: string;
 }
 
-const { title, imgAlt, imgSrc, description, podcastLink } = Astro.props;
+const { title, imgAlt, imgSrc, description } = Astro.props;
 ---
 
 <Card color='white'>
