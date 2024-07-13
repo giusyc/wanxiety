@@ -5,8 +5,9 @@ tags:
   - Podcast
   - Science
   - Expat
-imgUrl: '../../assets/blog/kasia.jpeg'
+imgUrl: '../../assets/blog/astro.jpeg'
 description: "Kasia is an Assistant Professor in Microscopy. She left her home country of Poland to pursue a PhD in Scotland with her career path ultimately bringing her to NYC! Listen to hear her amazing story of what it was like to leave her home country and start a new life in a city where she didn't know anyone! "
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'http://kasia.'
+podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
+youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
 ---

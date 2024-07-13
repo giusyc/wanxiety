@@ -1,15 +1,16 @@
 ---
-title: test
+title: Want to be on the podcast?
 author: Elian Van Cutsem
 pubDate: 2023-02-19 18:37
 tags:
   - Astro
   - JavaScript
   - Theme
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+description: If you have an amazing story to share or if you know someone that would be great for the podcast, please reach out via instagram or by emailing me at g@wanxiety.com. Let's help build an amazing support network!
 imgUrl: '../../assets/blog/astro.jpeg'
 layout: "../../layouts/BlogPost.astro"
 podcastLink: 'http://kasia.'
+youTubeLink: "test"
 ---
 
 ## Deorum petiit ignis
