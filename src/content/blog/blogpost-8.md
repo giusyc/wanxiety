@@ -1,12 +1,12 @@
 ---
-title: For the love of Science
+title: 5 Minute Morning Meditation to help you start your day!
 pubDate: 11/09/2022 14:25
 tags:
   - Podcast
-  - Science
-  - Expat
+  - Meditation
+  - Happy Mind
 imgUrl: '../../assets/blog/astro.jpeg'
-description: "Kasia is an Assistant Professor in Microscopy. She left her home country of Poland to pursue a PhD in Scotland with her career path ultimately bringing her to NYC! Listen to hear her amazing story of what it was like to leave her home country and start a new life in a city where she didn't know anyone! "
+description: "Short guided meditation to help you start your day and help relieve that wanxiety we all feel!"
 layout: '../../layouts/BlogPost.astro'
 podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
 youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
