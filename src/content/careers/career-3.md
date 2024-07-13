@@ -12,7 +12,7 @@ layout: '../../layouts/BlogPost.astro'
 link: "http://google.com"
 ---
 
-## From Art Marketing, Digital Ads, Tech Ops, and Program Management into A UX Career and Unparalleled Self-Branding
+# From Art Marketing, Digital Ads, Tech Ops, and Program Management into A UX Career and Unparalleled Self-Branding
 
 Written by Miki Anderson, in partnership with Wanxiety
 
