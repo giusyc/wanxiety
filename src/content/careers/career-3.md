@@ -7,7 +7,7 @@ tags:
   - UX
   - Design
 imgUrl: '../../assets/careers/uxlogo.jpg'
-description: Read about Miki's path from Art Marketing, Digital Ads, Tech Ops, and Program Management into A UX Career and Unparalleled Self-Branding
+description: Read about Miki's path from Art Marketing, Digital Ads, Tech Ops, and Program Management into A UX Career and Unparalleled Self-Branding. Resources and tips on how to get started in UX included!
 layout: '../../layouts/BlogPost.astro'
 link: "http://google.com"
 ---
