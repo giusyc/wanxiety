@@ -11,5 +11,3 @@ layout: '../../layouts/BlogPost.astro'
 podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/From-the-Art-world-to-UX-world-e2m06q8'
 youTubeLink: "https://youtu.be/pJPQjd2ebX4"
 ---
-
-Test
