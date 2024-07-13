@@ -1,8 +1,8 @@
 ---
 title: Video Game Developer Career
 description: Entry into video game development whether it's art, programming, or sound design. In here you'll find a general overview of each specific field within Game Development as well as helpful resources to get you started. 
-pubDate: 2024-07-06 16:09
-author: Timothy Coelho
+pubDate: 06/07/2024 16:09
+author: "Tim Coelho"
 tags:
   - Tech
   - Game Development
@@ -53,13 +53,15 @@ used to create a game where all the components come together. Here is a general 
 
 Overall the options depend on what direction you want to take your career in which type of company or project you'd want
 to do. As a programmer your responsibility is to dictate the logic of the whole game and utilize what was given by the art
-side and bind everything together.
+side and bind everything together. As you progress be sure to have a portfolio on platforms like Github that you can show
+off to demonstrate what you've learned on platforms like <a href="https://www.github.com" target="_blank">Github</a>.
 
 ## Video Game Artist
 
 As a Video Game Artist you have a lot of different areas to express your creativity, from character design, to environments
 and more. Each stage builds up into more from concept to modeling/animating to rendering/lighting/VFX. Here are the key aspects
-of each stage in the pipeline of 3D art.
+of each stage in the pipeline of 3D art. As an artist it is crucial to have a portfolio of your work on platforms such as
+<a href="https://www.artstation.com" target="_blank">Artstation</a>.
 
 ### Illustrator/Concept Artist
 Hand Drawn assets as a proof of concept. This stage is very important as the 3D modellers need a sufficient amount of 
