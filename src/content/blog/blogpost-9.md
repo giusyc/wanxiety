@@ -5,9 +5,8 @@ author: "Elian Van Cutsem"
 tags:
   - Business Owner
   - Entrepreneur
-  - Small Business
-imgUrl: '../../assets/blog/astro.jpeg'
+imgUrl: '../../assets/blog/jess.jpg'
 description: Meet Jess. She is the owner of Practically Perfect Potty Training, a bespoke potty training business based here in NYC. Listen to her amazing story of starting her life over at 40 and beginning her entrepreneurial journey at 43! @practicallyperfectpotty
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'http://kasia.'
+podcastLink: 'http://google.com.'
 ---
