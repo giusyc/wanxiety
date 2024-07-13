@@ -7,7 +7,7 @@ tags:
   - JavaScript
   - Theme
 description: If you have an amazing story to share or if you know someone that would be great for the podcast, please reach out via Instagram or by emailing me at g@wanxiety.com. Let's help build an amazing support network!
-imgUrl: '../../assets/blog/astro.jpeg'
+imgUrl: '../../assets/blog/bwlogo.svg'
 layout: "../../layouts/BlogPost.astro"
 podcastLink: 'http://kasia.'
 youTubeLink: "test"
