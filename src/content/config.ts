@@ -9,6 +9,7 @@ const blogCollection = defineCollection({
       pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
       podcastLink: z.string(),
+      youTubeLink: z.string(),
       draft: z.boolean().optional().default(false),
     }),
 });
@@ -18,6 +19,7 @@ const careersCollection = defineCollection({
     z.object({
       title: z.string(),
       tags: z.array(z.string()),
+      author: z.string(),
       description: z.string(),
       pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
