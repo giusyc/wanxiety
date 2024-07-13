@@ -5,7 +5,7 @@ import vercel from '@astrojs/vercel/serverless';
 
 export default defineConfig({
   // used to generate images
-  output: 'server',
+  output: 'hybrid',
   adapter: vercel({
     webAnalytics: {
       enabled: true,

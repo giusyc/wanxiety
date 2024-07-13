@@ -20,6 +20,8 @@ const socialIcons = [
     url: "https://www.youtube.com/@ByeWanxiety",
     icon: "i-uil-youtube",
   },
+  { name: "RSS", url: "/feed.xml", icon: "i-uil-rss" },
+
 ];
 
 const { pageTitle } = Astro.props;
@@ -64,7 +66,8 @@ const { pageTitle } = Astro.props;
   <nav class="md:hidden flex">
     <h2 class="hidden">Mobile Navigation</h2>
     <ul>
-      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/blog/">Podcast & Meditations</a></li>
+      <li><a href="/careers/">Career Paths</a></li>
     </ul>
   </nav>
 </header>

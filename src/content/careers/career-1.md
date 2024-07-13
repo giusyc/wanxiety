@@ -6,6 +6,7 @@ author: Timothy Coelho
 tags:
   - Tech
   - Game Development
+  - Design
   
 imgUrl: '../../assets/careers/vgdev.jpg'
 layout: ../../layouts/BlogPost.astro

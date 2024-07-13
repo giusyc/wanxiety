@@ -8,6 +8,7 @@ const blogCollection = defineCollection({
       description: z.string(),
       pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
+      podcastLink: z.string(),
       draft: z.boolean().optional().default(false),
     }),
 });

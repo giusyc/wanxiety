@@ -16,10 +16,11 @@ const { post } = Astro.props;
   imgAlt={post.data.title}
   imgSrc={post.data.imgUrl}
   description={post.data.description}
+  podcastLink={post.data.podcastLink}
 >
   <div class='flex justify-end my-4'>
     <!-- This is where we re-route the podcast episodes. Will need to reroute to spotify podcast -->
-    <Button href={`/blog/${post.slug}/`}>Listen &rarr;</Button>
+    <Button href={`${post.data.podcastLink}/`} target="_blank">Listen &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
