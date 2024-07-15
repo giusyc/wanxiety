@@ -5,7 +5,7 @@ author: "Giusy"
 tags:
   - Food Writer
   - Entrepreneur
-  - Blogger
+  - Content Creator
 imgUrl: '../../assets/blog/angie.jpg'
 description: Meet Angie or, as many of you know her, Brooklyn Food Lady! Listen to her amazing story of she recently left her engineering career in order to pursue her dream and focus on the growth of her very popular food blog @brooklynfoodlady! 
 layout: '../../layouts/BlogPost.astro'
