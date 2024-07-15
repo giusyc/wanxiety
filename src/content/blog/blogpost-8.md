@@ -1,13 +1,13 @@
 ---
-title: 5 Minute Morning Meditation to help you start your day!
+title: It's Never Too Late
 pubDate: 11/09/2022 14:25
+author: "Elian Van Cutsem"
 tags:
-  - Podcast
-  - Meditation
-  - Happy Mind
-imgUrl: '../../assets/blog/bwlogo.svg'
-description: "Short guided meditation to help you start your day and help relieve that wanxiety we all feel!"
+  - Business Owner
+  - Entrepreneur
+imgUrl: '../../assets/blog/jess.jpg'
+description: Meet Jess. She is the owner of Practically Perfect Potty Training, a bespoke potty training business based here in NYC. Listen to her amazing story of starting her life over at 40 and beginning her entrepreneurial journey at 43! @practicallyperfectpotty
 layout: '../../layouts/BlogPost.astro'
-podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
-youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/Its-Never-Too-Late-e2lvso4'
+youTubeLink: "https://youtu.be/aDoZ8fDuUno"
 ---

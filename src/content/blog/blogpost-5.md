@@ -1,49 +1,13 @@
 ---
-title: Want to be on the podcast?
-author: Elian Van Cutsem
-pubDate: 2023-02-19 18:37
+title: 5 Minute Morning Meditation to help you start your day!
+pubDate: 11/09/2022 14:25
 tags:
-  - Astro
-  - JavaScript
-  - Theme
-description: If you have an amazing story to share or if you know someone that would be great for the podcast, please reach out via Instagram or by emailing me at g@wanxiety.com. Let's help build an amazing support network!
+  - Podcast
+  - Meditation
+  - Happy Mind
 imgUrl: '../../assets/blog/bwlogo.svg'
-layout: "../../layouts/BlogPost.astro"
-podcastLink: 'http://kasia.'
-youTubeLink: "test"
+description: "Short guided meditation to help you start your day and help relieve that wanxiety we all feel!"
+layout: '../../layouts/BlogPost.astro'
+podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
+youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
 ---
-
-## Deorum petiit ignis
-
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
-
-## Iovis late orbem Perseus sunt
-
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
-
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
-
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
