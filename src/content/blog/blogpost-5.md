@@ -1,13 +1,14 @@
 ---
-title: 5 Minute Morning Meditation to help you start your day!
-pubDate: 11/09/2022 14:25
+title: For the Love of Science!
+pubDate: 07/21/2024 14:25
+author: "Giusy"
 tags:
+  - Science
   - Podcast
-  - Meditation
-  - Happy Mind
-imgUrl: '../../assets/blog/bwlogo.svg'
-description: "Short guided meditation to help you start your day and help relieve that wanxiety we all feel!"
+  - Expat
+imgUrl: '../../assets/blog/kasia1.jpg'
+description: Meet Kasia, an Assistant Professor in Microscopy Core in NYC. Listen to her awesome story about what it was like to move away from her home country of Poland to Scotland and ultimately to NYC, to pursue her career in Science while living with Type 1 Diabetes!
 layout: '../../layouts/BlogPost.astro'
-podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
-youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/For-The-Love-of-Science-e2m9cjn'
+youTubeLink: "https://youtu.be/bDwSkYLjG58"
 ---
