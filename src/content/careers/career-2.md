@@ -6,7 +6,7 @@ tags:
   - Legal Field
   - Lawyer
 imgUrl: '../../assets/careers/law.jpg'
-description: A concise guide to pursuing a legal career, covering key steps like exploring motivations, understanding different legal roles, and preparing for exams. It includes tips on law school selection, financing options, and resources for success. The guide aims to help aspiring lawyers make informed decisions and navigate the path to a fulfilling legal career.
+description: A guide to pursuing a legal career, covering key steps like exploring motivations, understanding different legal roles, and preparing for exams. It includes tips on law school selection, financing options, and resources for success. The guide aims to help aspiring lawyers make informed decisions and navigate the path to a fulfilling legal career.
 layout: '../../layouts/BlogPost.astro'
 link: "http://google.com"
 ---
