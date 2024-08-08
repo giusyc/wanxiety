@@ -1,0 +1,13 @@
+---
+title: A Rising Star in the Art Scene!
+pubDate: 08/05/2024 07:00
+author: "Giusy"
+tags:
+  - Artist
+  - College Graduate
+  - Content Creator
+imgUrl: '../../assets/blog/anna.jpeg'
+description: 'Meet Anna, a recent Parsons graduate making her mark as an artist and content creator. Discover her creative process, challenges, and aspirations in this inspiring episode. Tune in for a glimpse into the world of a rising star in the art scene! Follow @annakwanlol'
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/StartUp-Founder-to-Product-Manager-e2mpbrn'
+youTubeLink: "https://youtu.be/y-WlUwvW24c"
+---
