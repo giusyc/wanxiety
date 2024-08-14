@@ -1,7 +1,7 @@
 ---
 title: A Rising Star in the Art Scene!
 pubDate: 08/05/2024 07:00
-author: "Giusy"
+author: https://amzn.to/4dkichb
 tags:
   - Artist
   - College Graduate
