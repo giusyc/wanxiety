@@ -1,14 +1,14 @@
 ---
-title: The Brooklyn Food Lady!
-pubDate: 07/14/2024 14:25
+title: For the Love of Science!
+pubDate: 07/21/2024 14:25
 author: "Giusy"
 tags:
-  - Food Writer
-  - Entrepreneur
-  - Content Creator
-imgUrl: '../../assets/blog/angie.jpg'
-description: Meet Angie or, as many of you know her, Brooklyn Food Lady! Listen to her amazing story of she recently left her engineering career in order to pursue her dream and focus on the growth of her very popular food blog @brooklynfoodlady! 
+  - Science
+  - Podcast
+  - Expat
+imgUrl: '../../assets/blog/kasia1.jpg'
+description: Meet Kasia, an Assistant Professor in Microscopy Core in NYC. Listen to her awesome story about what it was like to move away from her home country of Poland to Scotland and ultimately to NYC, to pursue her career in Science while living with Type 1 Diabetes!
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/The-Brooklyn-Food-Lady-e2m1euj'
-youTubeLink: "https://youtu.be/K4KhwcNJdEk"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/For-The-Love-of-Science-e2m9cjn'
+youTubeLink: "https://youtu.be/bDwSkYLjG58"
 ---

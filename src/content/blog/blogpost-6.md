@@ -1,14 +1,14 @@
 ---
-title: From Data to Engineering!
-pubDate: 07/21/2024 14:25
+title: StartUp Founder to Product Manager!
+pubDate: 08/05/2024 07:00
 author: "Giusy"
 tags:
-  - Engineering
+  - Product Manager
   - Career Switch
   - Tech
-imgUrl: '../../assets/blog/sydney.jpg'
-description: Meet Syd! In this episode, she tells her story about her career path from data to software engineering and gives some great tips for those whom are looking to move into an engineering role!
+imgUrl: '../../assets/blog/nan.jpg'
+description: Meet Nandita! In this episode, she shares her inspiring journey of launching her own startup, facing early challenges, and how she leveraged the skills she gained from that experience to become a successful Product Manager! 
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/From-Data-to-Engineering-e2midto'
-youTubeLink: "https://youtu.be/QLIzsNbxN84"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/StartUp-Founder-to-Product-Manager-e2mpbrn'
+youTubeLink: "https://youtu.be/y-WlUwvW24c"
 ---
