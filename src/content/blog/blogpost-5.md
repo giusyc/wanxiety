@@ -1,14 +1,14 @@
 ---
-title: For the Love of Science!
+title: From Data to Engineering!
 pubDate: 07/21/2024 14:25
 author: "Giusy"
 tags:
-  - Science
-  - Podcast
-  - Expat
-imgUrl: '../../assets/blog/kasia1.jpg'
-description: Meet Kasia, an Assistant Professor in Microscopy Core in NYC. Listen to her awesome story about what it was like to move away from her home country of Poland to Scotland and ultimately to NYC, to pursue her career in Science while living with Type 1 Diabetes!
+  - Engineering
+  - Career Switch
+  - Tech
+imgUrl: '../../assets/blog/sydney.jpg'
+description: Meet Syd! In this episode, she tells her story about her career path from data to software engineering and gives some great tips for those whom are looking to move into an engineering role!
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/For-The-Love-of-Science-e2m9cjn'
-youTubeLink: "https://youtu.be/bDwSkYLjG58"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/From-Data-to-Engineering-e2midto'
+youTubeLink: "https://youtu.be/QLIzsNbxN84"
 ---

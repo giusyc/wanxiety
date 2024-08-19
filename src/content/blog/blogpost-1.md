@@ -1,13 +1,13 @@
 ---
-title: 5 Minute Morning Meditation to help you start your day!
-pubDate: 11/09/2022 14:25
+title: From the Art world to UX world!
+pubDate: 11/07/2024 11:11
 tags:
-  - Podcast
-  - Meditation
-  - Happy Mind
-imgUrl: '../../assets/blog/bwlogo.svg'
-description: "Short guided meditation to help you start your day and help relieve that wanxiety we all feel!"
+  - Art
+  - Tech
+  - UX
+imgUrl: '../../assets/blog/miki.jpg'
+description: "Meet Miki, she's a UX & Product Designer based in NYC. From Tokyo -> Antwerp -> Paris -> NYC, listen to her amazing story about switching careers from the art world to the UX world and how she dealt with her wanxiety and turned it into fuel to help her grow! Read about her journey under Career Paths."
 layout: '../../layouts/BlogPost.astro'
-podcastLink: "https://podcasters.spotify.com/pod/show/byewanxiety/episodes/5-min-Guided-Meditation-to-help-you-relieve-work-anxiety-and-have-a-great-day-e2lum4e"
-youTubeLink: "https://youtu.be/g_-FAMi_D1U?si=248euv-zJYSZox6J"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/From-the-Art-world-to-UX-world-e2m06q8'
+youTubeLink: "https://youtu.be/pJPQjd2ebX4"
 ---
