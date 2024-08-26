@@ -1,13 +1,13 @@
 ---
-title: From the Art world to UX world!
-pubDate: 11/07/2024 11:11
+title: It's Never Too Late
+pubDate: 11/09/2022 14:25
+author: "Elian Van Cutsem"
 tags:
-  - Art
-  - Tech
-  - UX
-imgUrl: '../../assets/blog/miki.jpg'
-description: "Meet Miki, she's a UX & Product Designer based in NYC. From Tokyo -> Antwerp -> Paris -> NYC, listen to her amazing story about switching careers from the art world to the UX world and how she dealt with her wanxiety and turned it into fuel to help her grow! Read about her journey under Career Paths."
+  - Business Owner
+  - Entrepreneur
+imgUrl: '../../assets/blog/jess.jpg'
+description: Meet Jess. She is the owner of Practically Perfect Potty Training, a bespoke potty training business based here in NYC. Listen to her amazing story of starting her life over at 40 and beginning her entrepreneurial journey at 43! @practicallyperfectpotty
 layout: '../../layouts/BlogPost.astro'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/From-the-Art-world-to-UX-world-e2m06q8'
-youTubeLink: "https://youtu.be/pJPQjd2ebX4"
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/Its-Never-Too-Late-e2lvso4'
+youTubeLink: "https://youtu.be/aDoZ8fDuUno"
 ---
