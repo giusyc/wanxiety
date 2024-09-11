@@ -1,12 +1,13 @@
 ---
-title: The Anxious Truth Explained!
-pubDate: 08/18/2024 07:00
+title: The Road To Ivy League!
+pubDate: 09/02/2024 07:00
 author: "Giusy"
 tags:
-  - Therapy
-  - Anxiety Help
-imgUrl: '../../assets/blog/nicole.jpg'
-description: 'Meet Nicole, a licensed therapist. In this episode, she explains what anxiety is and how it affects individuals both mentally and physically. She also offers practical tips and compassionate advice on how to support a loved one struggling with anxiety.'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/The-Anxious-Truth-Explained-e2njs1i'
-youTubeLink: "https://youtu.be/OJS-va81qL8"
+  - Compliance Officer
+  - Finance
+  - Law
+imgUrl: '../../assets/blog/amina.jpeg'
+description: 'Meet Amina, a compliance officer in private equity and a proud Princeton graduate. Growing up in a low-income household, her journey to Ivy League was far from easy, but through perseverance and accessing grants and resources, she made her dream a reality. Join us as Amina shares her inspiring story and offers invaluable advice on how others can navigate their way to prestigious schools.'
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/The-Road-to-Ivy-League-e2o8ll5'
+youTubeLink: "https://youtu.be/fZgZw0ifMg8"
 ---
