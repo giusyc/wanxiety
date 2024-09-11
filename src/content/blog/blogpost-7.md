@@ -1,12 +1,13 @@
 ---
-title: The Pivot to Law!
-pubDate: 08/18/2024 07:00
+title: And Still I Rise!
+pubDate: 09/02/2024 07:00
 author: "Giusy"
 tags:
-  - Lawyer
-  - Legal Career
-imgUrl: '../../assets/blog/anastasia.jpg'
-description: 'Meet Anastasia, a litigation lawyer who transitioned from biology to law. She shares her journey from studying cells and ecosystems to navigating the courtroom, discussing the career anxiety she faced and offering insights on embracing uncertainty and finding fulfillment in unexpected changes.'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/The-Pivot-to-Law-e2nb84p'
-youTubeLink: "https://youtu.be/_-2fvl7pxIw"
+  - Tech
+  - Software Engineer
+  - Bootcamp
+imgUrl: '../../assets/blog/albina.jpeg'
+description: 'Meet Albina, a software engineer who took the unconventional route of attending a coding bootcamp while juggling shifts as a waitress. Albina shares her inspiring journey from waiting tables to writing code, discussing the challenges she faced, the determination that kept her going, and how she broke into the tech industry.'
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/And-Still-I-Rise-e2nsu6e'
+youTubeLink: "https://youtu.be/LsvU2P-UsTE"
 ---
