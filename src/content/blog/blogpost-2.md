@@ -1,12 +1,12 @@
 ---
-title: The Anxious Truth Explained!
-pubDate: 08/18/2024 07:00
+title: Health is Wealth!
+pubDate: 09/02/2024 07:00
 author: "Giusy"
 tags:
-  - Therapy
-  - Anxiety Help
-imgUrl: '../../assets/blog/nicole.jpg'
-description: 'Meet Nicole, a licensed therapist. In this episode, she explains what anxiety is and how it affects individuals both mentally and physically. She also offers practical tips and compassionate advice on how to support a loved one struggling with anxiety.'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/The-Anxious-Truth-Explained-e2njs1i'
-youTubeLink: "https://youtu.be/OJS-va81qL8"
+  - Doctor
+  - Medicine
+imgUrl: '../../assets/blog/pam.jpeg'
+description: 'Meet Dr. Pam, a psychiatry doctor in training. In this episode, she shares the highs and lows of her journey, from medical school challenges to choosing a career in mental health. Dr. Pam offers valuable insights on staying balanced, emphasizing self-care, mental wellness, and work-life balance. Tune in for an inspiring conversation on resilience and growth.'
+podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/Health-is-Wealth-e2oo0u2'
+youTubeLink: "https://youtu.be/IcB8USVcDYg"
 ---
