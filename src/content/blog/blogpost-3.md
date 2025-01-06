@@ -1,12 +1,12 @@
 ---
-title: "Scrubs & Dreams: The Journey to Becoming a Nurse!"
-pubDate: 09/02/2024 07:00
+title: "Across Continents: Lu’s Journey in Science and Discovery"
+pubDate: 12/17/2024 07:00
 author: "Giusy"
 tags:
-  - Nurse
-  - Medicine
-imgUrl: '../../assets/blog/sadie.jpeg'
-description: 'Meet Sadie, a dedicated critical care nurse who reflects on her personal journey, discussing why she chose nursing, her path to becoming a travel nurse, and the unique challenges and rewards of working in critical care. She also shares her powerful experiences working on the frontlines during the pandemic, opening up about the challenges she faced and the strength that kept her going.'
-podcastLink: 'https://podcasters.spotify.com/pod/show/byewanxiety/episodes/Scrubs--Dreams-The-Journey-to-Becoming-a-Nurse-e2p19o4'
-youTubeLink: "https://youtu.be/-JJnUr9ZZcQ"
+  - Science
+  - Expat
+imgUrl: '../../assets/blog/lu.jpeg'
+description: 'Meet Lu, a postdoc in the Microbiology department at NYU Langone, Lu’s journey has taken her from Uruguay to Paris to New York in pursuit of science and discovery. In this episode, we talk about her inspiring path: what sparked her passion for science, the challenges of navigating academia, and how she stays grounded while balancing work and life.'
+podcastLink: 'https://open.spotify.com/episode/6QWaoAdPt0OZvUpmTIl4gU?si=8PfB3MGmRYmLHW4tEvnusw'
+youTubeLink: "https://youtu.be/DMR_I_f79bw"
 ---
