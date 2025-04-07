@@ -1,12 +1,12 @@
 ---
-title: "The Art of Direction: Summer's Journey from Pratt to Ironman"
-pubDate: 01/05/2025 07:00
+title: “Reading the Future - A Book Publicist’s Path to Balance”
+pubDate: 03/24/2025 07:00
 author: "Giusy"
 tags:
-  - Art Director
-  - Creative
-imgUrl: '../../assets/blog/summer.jpeg'
-description: 'Meet Summer, a talented art director and Pratt graduate, as she shares her journey into the dynamic world of art direction. In this episode, she offers insights on breaking into the field, navigating the creative industry, and practical advice for aspiring art directors. Don’t miss this inspiring and insightful conversation!'
-podcastLink: 'https://creators.spotify.com/pod/show/byewanxiety/episodes/The-Art-of-Direction-Summers-Journey-from-Pratt-to-Ironman-e2t3ui4'
-youTubeLink: "https://youtu.be/gNyIhfymxDM"
+  - Publicist
+  - PR
+imgUrl: '../../assets/blog/tayla.jpeg'
+description: 'Meet Tayla, an Associate Publicist who turned her dream into reality—moving to NYC with no job or money and breaking into the world of children’s book Publicity! If you’ve ever dreamed of working in publishing or want insight into the Publicity world, this episode is a must-listen!'
+podcastLink: 'https://creators.spotify.com/pod/show/byewanxiety/episodes/Reading-the-Future-A-Book-Publicists-Path-to-Balance-e30ip1g'
+youTubeLink: "https://youtu.be/M7SuLjpXh3o"
 ---
