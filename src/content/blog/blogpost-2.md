@@ -1,12 +1,12 @@
 ---
-title: "From Global Marketing to Mindfulness: Kiran’s Journey!"
-pubDate: 12/10/2024 07:00
+title: "Breaking into Tech Consulting & Finding Balance with Giulianna!"
+pubDate: 03/23/2025 07:00
 author: "Giusy"
 tags:
-  - Marketing
-  - Expat
-imgUrl: '../../assets/blog/kiran.jpeg'
-description: 'Meet Kiran, Head of Marketing at a NYC firm. In this episode, she shares insights into the diverse areas of marketing and how they intersect, along with how her meditation practice keeps her grounded in a fast-paced industry. '
-podcastLink: 'https://creators.spotify.com/pod/show/byewanxiety/episodes/From-Global-Marketing-to-Mindfulness-Kirans-Journey-e2s4hvv'
-youTubeLink: "https://youtu.be/PcIiAksoMaU"
+  - Consulting
+  - Tech
+imgUrl: '../../assets/blog/giulianna.jpeg'
+description: 'Meet Giulianna, a New York-based tech consultant. In this episode, she talks about how she landed her dream role, the key skills for success, and how she manages work-life balance in a demanding industry. If you’re interested in consulting careers, mental health, or career growth, this episode is for you!'
+podcastLink: 'https://creators.spotify.com/pod/show/byewanxiety/episodes/Breaking-into-Tech-Consulting--Finding-Balance-with-Giulianna-e2vlu4j'
+youTubeLink: "https://youtu.be/wfIlT0qQVKQ"
 ---
