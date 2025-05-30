@@ -10,9 +10,16 @@ interface Props {
 
 const { count } = Astro.props;
 
-const posts = await getCollection("blog").then((posts) =>
-  posts.reverse().slice(0, count ?? 3)
-);
+const posts = await getCollection("blog");
+const sortedPosts = [...posts]
+  .sort((a, b) => {
+    const idAString = a.id.match(/\d+/)?.[0] ?? '0';
+    const idBString = b.id.match(/\d+/)?.[0] ?? '0';
+    const idA = parseInt(idAString, 10);
+    const idB = parseInt(idBString, 10);
+    return idA - idB;
+  })
+  .reverse().slice(0, count ?? 3);
 ---
 
 <section class="mt-8">
@@ -28,6 +35,6 @@ const posts = await getCollection("blog").then((posts) =>
         <Button href="/blog/">to blog</Button>
       </div>
     </div>
-    <BlogList posts={posts} />
+    <BlogList posts={sortedPosts} />
   </Card>
 </section>

@@ -3,9 +3,14 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Default.astro';
 import BlogList from '@components/blog/BlogList.astro';
 
-const posts = await getCollection('blog').then((collection) =>
-  collection.reverse()
-);
+const posts = await getCollection('blog');
+const sortedPosts = [...posts]  .sort((a, b) => {
+    const idAString = a.id.match(/\d+/)?.[0] ?? '0';
+    const idBString = b.id.match(/\d+/)?.[0] ?? '0';
+    const idA = parseInt(idAString, 10);
+    const idB = parseInt(idBString, 10);
+    return idA - idB;
+  }).reverse()
 ---
 
 <Layout
@@ -14,6 +19,6 @@ const posts = await getCollection('blog').then((collection) =>
   pageTitle='Bye Wanxiety'
 >
   <main class='bg-green p-6'>
-    <BlogList posts={posts} />
+    <BlogList posts={sortedPosts} />
   </main>
 </Layout>
