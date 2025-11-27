@@ -13,15 +13,18 @@ export async function getStaticPaths() {
   const tags: string[] = [];
 
   allCareers.forEach((career) => {
-    career.data.tags.forEach((tag) => {
+    // Guard in case some career entries have missing tags
+    const careerTags = Array.isArray(career.data.tags) ? career.data.tags : [];
+    careerTags.forEach((tag) => {
       tags.push(tag.toLowerCase());
     });
   });
 
   return Array.from(new Set(tags)).map((tag) => {
-    const filteredCareers = allCareers.filter((career) =>
-      career.data.tags.map((t) => t.toLowerCase()).includes(tag)
-    );
+    const filteredCareers = allCareers.filter((career) => {
+      const careerTags = Array.isArray(career.data.tags) ? career.data.tags : [];
+      return careerTags.map((t) => t.toLowerCase()).includes(tag);
+    });
 
     return {
       params: { tag },

@@ -2,7 +2,7 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const blog = await getCollection('careerPaths');
+  const blog = await getCollection('careers');
   return rss({
     title: 'Bye Wanxiety',
     description: 'A platform to help with work anxiety and to change career at any age!',
@@ -13,7 +13,7 @@ export async function GET(context) {
       pubDate: post.data.pubDate,
       author:post.data.author,
       description: post.data.description,
-      link: `/careerPaths/${post.slug}/`,
+      link: `/careers/${post.slug}/`,
     })),
     customData: '<language>en-us</language>',
     canonicalUrl: 'https://brutal.elian.codes',

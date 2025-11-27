@@ -7,11 +7,12 @@ interface Props {
 }
 
 const { careers } = Astro.props;
+const safeCareers = Array.isArray(careers) ? careers : [];
 ---
 
 <ul class='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
   {
-    careers.map((career) => {
+    safeCareers.map((career) => {
       return (
         <li>
           <CareerSummaryCard careers={career} />

@@ -1,16 +1,17 @@
 ---
 interface Props {
-  headings: Array<Object>;
+  headings?: Array<Object>;
 }
 
 const { headings } = Astro.props;
+const safeHeadings = Array.isArray(headings) ? headings : [];
 ---
 
 <aside>
   <nav class='hidden lg:block sticky top-6'>
     <ul>
       {
-        headings.map((heading: any) => (
+        safeHeadings.map((heading: any) => (
           <li class='py-1'>
             {[...Array(heading.depth - 1)].map((_, _i) => (
               <span class='inline-block w-4' />
