@@ -20,14 +20,15 @@ export async function getStaticPaths() {
     });
   });
 
-  return Array.from(new Set(tags)).map((tag) => {
+  // Use different variable names to avoid shadowing `tag` inside inner scopes
+  return Array.from(new Set(tags)).map((tagName) => {
     return {
-      params: { tag },
+      params: { tag: tagName },
       props: {
-        tag,
+        tag: tagName,
         blogposts: allPosts.filter((post) => {
           const postTags = Array.isArray(post.data.tags) ? post.data.tags : [];
-          return postTags.map((tag) => tag.toLowerCase()).includes(tag);
+          return postTags.map((t) => t.toLowerCase()).includes(tagName);
         }),
       },
     };
@@ -35,17 +36,36 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  tag: string;
-  blogposts: CollectionEntry<'blog'>[];
+  tag?: string;
+  blogposts?: CollectionEntry<'blog'>[];
 }
 
-const { tag, blogposts } = Astro.props;
+// Support both prerender (Astro.props) _and_ dynamic/runtime using Astro.params
+const { tag: propTag, blogposts: propBlogposts } = Astro.props ?? {};
+const currentTag = propTag ?? Astro.params?.tag;
+
+// If blogposts were provided by getStaticPaths props, use them; otherwise compute them now
+let blogposts: CollectionEntry<'blog'>[] = Array.isArray(propBlogposts)
+  ? propBlogposts
+  : [];
+
+if (!Array.isArray(blogposts) || blogposts.length === 0) {
+  // compute posts using the tag param at runtime
+  const allPosts = await getCollection('blog').then((collection) => collection.reverse());
+  blogposts = allPosts.filter((post) => {
+    const postTags = Array.isArray(post.data.tags) ? post.data.tags : [];
+    return postTags.map((t) => t.toLowerCase()).includes(String(currentTag).toLowerCase());
+  });
+}
+
+// Safe display value for templates
+const displayTag = currentTag ? String(currentTag) : '';
 ---
 
 <Layout
-  title={`Blog: ${tag}`}
-  description={`Bye Wanxiety | All podcasts tagged with ${tag}`}
-  pageTitle={`Podcasts & Meditations | Podcasts tagged with ${tag}`}
+  title={`Blog: ${displayTag}`}
+  description={`Bye Wanxiety | All podcasts tagged with ${displayTag}`}
+  pageTitle={`Podcasts & Meditations | Podcasts tagged with ${displayTag}`}
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
