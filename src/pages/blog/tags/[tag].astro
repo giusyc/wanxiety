@@ -13,7 +13,9 @@ export async function getStaticPaths() {
   const tags: string[] = [];
 
   allPosts.forEach((post) => {
-    post.data.tags.forEach((tag) => {
+    // Some posts don't have tags — guard against undefined
+    const postTags = Array.isArray(post.data.tags) ? post.data.tags : [];
+    postTags.forEach((tag) => {
       tags.push(tag.toLowerCase());
     });
   });
@@ -23,9 +25,10 @@ export async function getStaticPaths() {
       params: { tag },
       props: {
         tag,
-        blogposts: allPosts.filter((post) =>
-          post.data.tags.map((tag) => tag.toLowerCase()).includes(tag)
-        ),
+        blogposts: allPosts.filter((post) => {
+          const postTags = Array.isArray(post.data.tags) ? post.data.tags : [];
+          return postTags.map((tag) => tag.toLowerCase()).includes(tag);
+        }),
       },
     };
   });

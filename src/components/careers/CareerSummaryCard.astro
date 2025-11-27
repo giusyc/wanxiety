@@ -10,6 +10,8 @@ interface Props {
 }
 
 const { careers } = Astro.props;
+// Guard tags to avoid runtime errors when tags are missing
+const safeTags = Array.isArray(careers.data.tags) ? careers.data.tags : [];
 ---
 
 
@@ -29,7 +31,7 @@ const { careers } = Astro.props;
     <div class='flex justify-between items-center'>
       <ul class='flex gap-4 mt-2'>
         {
-          careers.data.tags.map((tag) => {
+          safeTags.map((tag) => {
             return (
               <li>
                 <a class="sanchez" href={`/careers/tags/${tag.toLowerCase()}/`}>

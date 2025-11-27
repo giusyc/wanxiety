@@ -9,6 +9,8 @@ interface Props {
 }
 
 const { post } = Astro.props;
+// Guard tags to avoid runtime errors if a post is missing tags
+const safeTags = Array.isArray(post.data.tags) ? post.data.tags : [];
 ---
 
 <SummaryCard
@@ -28,7 +30,7 @@ const { post } = Astro.props;
     <div class='flex justify-between items-center'>
       <ul class='flex gap-4 mt-2'>
         {
-          post.data.tags.map((tag) => {
+          safeTags.map((tag) => {
             return (
               <li>
                 <a class="sanchez" href={`/blog/tags/${tag.toLowerCase()}/`}>
